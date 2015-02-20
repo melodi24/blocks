@@ -9,7 +9,7 @@ import org.junit.runners.Suite.SuiteClasses;
 	HorizontalBlockTest.class,
 	VerticalBlockTest.class,
 	TargetBlockTest.class,
-	moveBlockTest.class
+	GameBoardTests.class
 })
 
 public class AllTests {}

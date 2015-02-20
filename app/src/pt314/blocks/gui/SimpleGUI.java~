@@ -84,6 +84,9 @@ public class SimpleGUI extends JFrame implements ActionListener {
 		newGameMenuItem.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				//JOptionPane.showMessageDialog(SimpleGUI.this, "Coming soon...");
+				//initBoard();
+				//updateUI();
 				new SimpleGUI();				
 			}
 		});
